@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+
+    <!-- Browser Tab Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="https://api.iconify.design/lucide:coffee.svg"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Animation Library CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <a href="#home" class="logo">
+        <img
+          src="https://api.iconify.design/lucide:coffee.svg?color=%23ffffff"
+          alt="Coffee Logo"
+          width="40"
+        />
+        Coffee <span>Vibe Store</span>
+      </a>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          id="menu-icon"
+          d="M20 13.5c0-2.48-2.02-4.5-4.5-4.5S11 11.02 11 13.5s2.02 4.5 4.5 4.5c.88 0 1.69-.26 2.39-.7l2.41 2.41 1.41-1.41-2.41-2.41c.44-.69.7-1.51.7-2.39m-7 0a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1-5 0M3 5h18v2H3zm0 6h6v2H3zm0 6h6v2H3z"
+        ></path>
+      </svg>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#coffees">Coffees</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content" data-aos="fade-right">
+        <h2>Welcome to <i>Coffee Vibe Store</i></h2>
+        <h1>Fresh <span>Coffee</span> To Start Your Day</h1>
+        <p>
+          Experience the rich aroma and handcrafted blends made from premium
+          beans. Whether you need a morning boost or a cozy hangout vibe, we
+          serve perfection in every cup.
+        </p>
+        <a href="#coffees" class="btn">Order Now</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-container" data-aos="fade-up">
+        <h2 class="heading">About <span>Us</span></h2>
+        <p>
+          At <strong>Coffee Vibe Store</strong>, we believe every cup tells a
+          story. Founded with a passion for rich flavors and unforgettable
+          moments, we carefully source 100% organic Arabica beans from the
+          finest ethical farms across the globe.
+        </p>
+        <p>
+          Whether you're looking for a cozy space to kickstart your morning or a
+          warm environment to chill with friends, our expert baristas roast and
+          brew each cup with love, precision, and a whole lot of vibe.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Coffees Section -->
+    <section class="coffees" id="coffees">
+      <h2 class="heading" data-aos="fade-down">Coffees</h2>
+
+      <div class="coffees-container">
+        <!-- Box 1 -->
+        <div class="coffees-box" data-aos="fade-up" data-aos-delay="100">
+          <img src="cup1.png" alt="Espresso Bold" />
+          <div class="coffee-info">
+            <h4>Espresso Bold</h4>
+            <p>
+              Pure, intense, and rich. Shot of finely-grounded espresso beans
+              crafted for true coffee purists who need an instant energy boost.
+            </p>
+            <a href="#">
+              <i class="bx bxs-coffee"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="coffees-box" data-aos="fade-up" data-aos-delay="200">
+          <img src="cup2.png" alt="Creamy Cappuccino" />
+          <div class="coffee-info">
+            <h4>Creamy Cappuccino</h4>
+            <p>
+              Perfectly balanced with equal parts of rich espresso, steamed
+              milk, and a thick layer of silky foam topped with cocoa dust.
+            </p>
+            <a href="#">
+              <i class="bx bxs-coffee"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="coffees-box" data-aos="fade-up" data-aos-delay="300">
+          <img src="cup3.png" alt="Caramel Macchiato" />
+          <div class="coffee-info">
+            <h4>Caramel Macchiato</h4>
+            <p>
+              Smooth espresso poured over sweet vanilla syrup and velvety
+              steamed milk, finished with a rich drizzle of caramel sauce.
+            </p>
+            <a href="#">
+              <i class="bx bxs-coffee"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+      <h2 class="heading" data-aos="fade-down">Reviews</h2>
+      <div class="reviews-container">
+        <div class="reviews-box" data-aos="zoom-in" data-aos-delay="100">
+          <i class="bx bx-user-circle"></i>
+          <h3>Sophia R. <br />(⭐⭐⭐⭐⭐)</h3>
+          <p>
+            "The Caramel Macchiato here is absolute perfection! The vibe of the
+            cafe is super cozy, and the coffee quality is unmatched. My new
+            favorite daily spot!"
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="reviews-box" data-aos="zoom-in" data-aos-delay="200">
+          <i class="bx bx-user-circle"></i>
+          <h3>Daniel K.<br /> (⭐⭐⭐⭐⭐)</h3>
+          <p>
+            "Best Espresso Bold in town! As a coffee lover, I'm really picky
+            about my roast, but Coffee Vibe Store nailed the flavor profile.
+            Highly recommended!"
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="reviews-box" data-aos="zoom-in" data-aos-delay="300">
+          <i class="bx bx-user-circle"></i>
+          <h3>Ayesha M. <br /> (⭐⭐⭐⭐⭐)</h3>
+          <p>
+            "Super friendly baristas and the Creamy Cappuccino is so smooth.
+            Love the warm aesthetic and fast service. Will definitely be back!"
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="reviews-box" data-aos="zoom-in" data-aos-delay="400">
+          <i class="bx bx-user-circle"></i>
+          <h3>Liam T. <br /> (⭐⭐⭐⭐⭐)</h3>
+          <p>
+            "A hidden gem for coffee lovers. The ambiance is amazing, and every
+            cup feels handcrafted with love. Perfect place to work or hang out."
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" data-aos="fade-up">
+      <h2 class="heading">Contact <span>Us</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="abc125@gmail.com" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Contact Number" />
+          <input type="text" placeholder="Subject" />
+        </div>
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="social">
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-facebook-square"></i></a>
+        <a href="#"><i class="bx bxl-pinterest"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+      </div>
+      <ul class="list">
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+
+      <p class="copyright">© Coffee Vibe Store | All rights reserved</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+
+    <!-- AOS Animation Library JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 150,
+        duration: 1000,
+        once: false
+      });
+    </script>
+  </body>
+</html>
