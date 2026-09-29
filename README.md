@@ -46,4 +46,4 @@
 ---
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/zainab-naeem-20/coffee-vibe-store.git](https://github.com/zainab-naeem-20/coffee-vibe-store.git)
+git clone [https://github.com/zainab-naeem-20/coffee-vibe-store.git]
